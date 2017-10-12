@@ -5,7 +5,7 @@ def primeNumbers(n):
     elif n <= 0:
         return prime_list
     else:
-        for x in range(1, n + 1):
+        for x in range(2, n + 1):
             is_prime = True
             for y in range(2, int(x ** 0.5) + 1):
                 if x % y == 0:
